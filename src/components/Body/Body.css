@@ -1,0 +1,89 @@
+.body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 30px;
+
+}
+
+/* TÍTULO */
+.body h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+/* CONTENEDOR */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* TEXTO */
+.content p {
+    flex: 1;
+    max-width: 550px;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    color: #444;
+}
+
+/* IMAGEN */
+.content img {
+    width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.32);
+}
+
+/* CELULARES */
+@media (max-width: 768px) {
+
+    .body {
+        padding: 50px 20px;
+    }
+
+    .body h1 {
+        font-size: 1.8rem;
+        margin-bottom: 35px;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .content p {
+        max-width: 100%;
+    }
+
+    .content img {
+        width: 100%;
+        max-width: 420px;
+        height: 280px;
+    }
+}
+
+
+/*====================================================
+    DARK BODY 
+=====================================================*/
+
+.dark .body {
+    background: #18251D;
+
+}
+
+.dark .body h1 {
+    color: white;
+}
+
+.dark .body p {
+    color: #b7ff72;
+}

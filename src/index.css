@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    /* ← agrega esto como red de seguridad */
+
+}
+
+.container.dark {
+    background: #18251D;
+    color: #B7FF72;
+}

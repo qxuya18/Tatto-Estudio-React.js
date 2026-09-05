@@ -1,0 +1,41 @@
+.container-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease;
+    z-index: 0;
+}
+
+.hero-img.active {
+    opacity: 1;
+}
+
+.hero-content {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+    z-index: 2;
+    font-size: 1.5rem;
+}
+
+/* Overlay para legibilidad */
+.container-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 1;
+}
