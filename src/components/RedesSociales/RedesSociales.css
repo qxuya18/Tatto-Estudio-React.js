@@ -1,0 +1,14 @@
+.content-redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.content-redes img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}

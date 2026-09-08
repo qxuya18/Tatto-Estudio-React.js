@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero';
 import Body from './components/Body/Body';
+import RedesSociales from './components/RedesSociales/RedesSociales';
+import Footer from './components/Footer/Footer';
 
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
       <Body />
+      <RedesSociales />
+      <Footer />
     </div>
 
   )

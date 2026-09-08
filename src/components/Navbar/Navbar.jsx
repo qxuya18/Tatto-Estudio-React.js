@@ -12,7 +12,6 @@ const Navbar = ({ theme, setTheme }) => {
         theme == 'light' ? setTheme('dark') : setTheme('light');
     }
 
-
     return (
         <div className='nav'>
             <img src={theme == 'light' ? logo_light : logo_dark} alt="" className="logo" />
