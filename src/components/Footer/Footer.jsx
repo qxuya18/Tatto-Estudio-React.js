@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp, FaTiktok } from 'react-icons/fa'
 
 
 export const Footer = () => {
@@ -22,8 +22,10 @@ export const Footer = () => {
                     <p>Proyecto Intecap Full Stack</p>
                     <p>Aprendiendo React.js</p>
                     <FaFacebook size={28} color="#2051adff" />
-                    <FaTwitter size={28} color="#2051adff" />
                     <FaInstagram size={28} color="#ad31a3ff" />
+                    <FaWhatsapp size={28} color="#109939ff" />
+                    <FaTiktok size={28} color="#c7ccc8ff" />
+                    <FaTwitter size={28} color="#2051adff" />
 
                 </div>
             </footer>

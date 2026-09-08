@@ -2,6 +2,7 @@
     width: 100%;
     margin-top: 12px;
     background-color: #050505;
+    margin-top: 50px;
 }
 
 .footer {
@@ -24,4 +25,10 @@
     color: #d7ffe0;
     text-align: center;
     border-top: 1px solid #333;
+}
+
+.card div img {
+    width: 398px;
+    height: 400px;
+    background-color: #050505;
 }

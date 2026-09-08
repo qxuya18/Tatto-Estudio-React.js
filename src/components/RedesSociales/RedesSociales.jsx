@@ -8,13 +8,17 @@ import whatsapp from '../../assets/Iconos/whatsapp-icon.svg'
 
 
 function RedesSociales() {
+    const [like, setLike] = useState(0)
     return (
         <div className="icon-container">
             <div className="content-redes">
-                <img src={facebook} alt="" />
-                <img src={instagram} alt="" />
-                <img src={x_twiter_ligth} alt="" />
-                <img src={whatsapp} alt="" />
+                <button clasName="like"
+                    onClick={() => setLike(like + 1)}>
+                    <img src={facebook} alt="" />
+                </button >
+                <p>Dale Like {like}</p>
+
+
             </div>
         </div>
     )
