@@ -31,6 +31,7 @@ ul li {
     font-size: 18px;
     cursor: pointer;
     transition: transform 0.3s;
+
 }
 
 ul li::after {
@@ -93,6 +94,11 @@ ul li:hover::after {
     transform: scale(1.1);
 }
 
+.nav ul li a {
+    text-decoration: none;
+    color: #0B132B;
+}
+
 /*==================================================================*/
 .dark .nav {
     background: #0B132B;
@@ -109,4 +115,9 @@ ul li:hover::after {
 
 .dark .search-box input::placeholder {
     color: #222;
+}
+
+.dark .nav ul li a {
+    text-decoration: none;
+    color: #ffffff93;
 }

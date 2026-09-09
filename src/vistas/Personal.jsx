@@ -1,11 +1,10 @@
 import React from 'react'
-
 import Hero from '../components/Hero/Hero';
 import Body from '../components/Body/Body';
 import PreEstilos from '../components/PreEstilos/PreEstilos';
 import RedesSociales from '../components/RedesSociales/RedesSociales';
 
-const About = () => {
+const Personal = () => {
     return (
         <div>
             <Hero />
@@ -14,4 +13,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Personal

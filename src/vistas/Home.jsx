@@ -1,17 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 import Hero from '../components/Hero/Hero';
 import Body from '../components/Body/Body';
 import PreEstilos from '../components/PreEstilos/PreEstilos';
 import RedesSociales from '../components/RedesSociales/RedesSociales';
 
-const About = () => {
+const Home = () => {
     return (
-        <div>
+        <>
             <Hero />
+            <Body />
+            <PreEstilos />
+            <RedesSociales />
+        </>
+    );
+};
 
-        </div>
-    )
-}
-
-export default About
+export default Home;

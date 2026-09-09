@@ -12,7 +12,7 @@ function RedesSociales() {
     return (
         <div className="icon-container">
             <div className="content-redes">
-                <button clasName="like"
+                <button className="like"
                     onClick={() => setLike(like + 1)}>
                     <img src={facebook} alt="" />
                 </button >

@@ -6,6 +6,7 @@ import search_icon_light from '../../assets/search-w.png'
 import search_icon_dark from '../../assets/search-b.png'
 import toogle_light from '../../assets/night.png'
 import toogle_dark from '../../assets/day.png'
+import { NavLink } from 'react-router-dom';
 
 const Navbar = ({ theme, setTheme }) => {
     const toggle_mode = () => {
@@ -16,10 +17,12 @@ const Navbar = ({ theme, setTheme }) => {
         <div className='nav'>
             <img src={theme == 'light' ? logo_light : logo_dark} alt="" className="logo" />
             <ul>
-                <li>HOME</li>
-                <li>GALERIA</li>
-                <li>PERSONAL</li>
-                <li>ABOUT</li>
+                <li>
+                    <NavLink to="/">HOME</NavLink>
+                </li>
+                <li><NavLink to="/Galeria">GALERIA</NavLink></li>
+                <li><NavLink to="/Personal">PERSONAL</NavLink></li>
+                <li><NavLink to="/About">ABOUT</NavLink></li>
             </ul>
 
             <div className="search-box">

@@ -5,7 +5,7 @@ import Body from '../components/Body/Body';
 import PreEstilos from '../components/PreEstilos/PreEstilos';
 import RedesSociales from '../components/RedesSociales/RedesSociales';
 
-const About = () => {
+const Galeria = () => {
     return (
         <div>
             <Hero />
@@ -14,4 +14,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Galeria
