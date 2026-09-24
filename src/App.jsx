@@ -7,11 +7,14 @@ import Body from './components/Body/Body';
 import RedesSociales from './components/RedesSociales/RedesSociales';
 import Footer from './components/Footer/Footer';
 import PreEstilos from './components/PreEstilos/PreEstilos';
+import Citas from './vistas/Citas';
+
 
 import Home from './vistas/Home';
 import Galeria from './vistas/Galeria';
 import Personal from './vistas/Personal';
 import About from './vistas/About';
+import AgendarCita from './vistas/Citas';
 
 
 const App = () => {
@@ -44,6 +47,11 @@ const App = () => {
           <Route
             path="/Personal"
             element={<Personal />}
+          />
+          
+          <Route 
+            path="/AgendarCita"
+            element={<Citas />}
           />
 
         </Routes>
