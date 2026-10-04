@@ -23,6 +23,7 @@ const Navbar = ({ theme, setTheme }) => {
                 <li><NavLink to="/Galeria">GALERIA</NavLink></li>
                 <li><NavLink to="/Personal">PERSONAL</NavLink></li>
                 <li><NavLink to="/About">ABOUT</NavLink></li>
+                <li><NavLink to="/Citas">CITAS</NavLink></li>
             </ul>
 
             <div className="search-box">

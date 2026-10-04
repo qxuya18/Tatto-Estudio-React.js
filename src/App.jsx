@@ -50,7 +50,7 @@ const App = () => {
           />
           
           <Route 
-            path="/AgendarCita"
+            path="/Citas"
             element={<Citas />}
           />
 

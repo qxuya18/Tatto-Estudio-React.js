@@ -1,0 +1,118 @@
+.agendar-cita {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.agendar-cita h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.agendar-descripcion {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+/* Formulario */
+.cita-form {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: none;
+  transition: none;
+
+}
+
+.cita-form:hover {
+  transform: none;
+  transition: none;
+
+}
+
+.cita-form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.cita-form li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  transform: none;
+  transition: none;
+}
+
+.cita-form label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  transform: none;
+  transition: none;
+}
+
+.cita-form select,
+.cita-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background: #fff;
+  transform: none;
+  transition: none;
+}
+
+.artista-seleccionado {
+  margin-top: 8px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* Botón */
+.cita-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cita-form button:hover {
+  background: #444;
+}
+
+.dark .agendar-cita h1 {
+  color: white;
+}
+
+.label {
+  transform: none;
+  transition: none;
+}
+
+.label:hover {
+  transform: none;
+}
+
+.label-cita {
+  margin-bottom: 8px;
+  font-weight: 600;
+  transform: none;
+  transition: none;
+}
+
+.label-cita:hover {
+  transform: none;
+}

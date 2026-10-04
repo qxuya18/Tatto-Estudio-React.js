@@ -1,14 +1,12 @@
 import AgendarCita from "../components/AgendarCita/AgendarCita";
+import Hero from "../components/Hero/Hero";
 
 const Citas = () => {
   return (
-    <div>
-      <main>
+    <> 
+        <Hero />
         <AgendarCita />
-    
-      </main>
-
-    </div>
+    </>
   )
 }
 
